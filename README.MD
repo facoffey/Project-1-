@@ -33,10 +33,10 @@ The configuration details of each machine may be found below.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| VM 1     |webserver |            |                  |
-| VM 2     |          |            |                  |
-| VM 3     |          |            |                  |
+| Jump Box | Gateway  | 10.0.0.4   | Linux            |
+| VM 1     |webserver | 10.0.0.5   |                  |
+| VM 2     |webserver | 10.0.0.6   |                  |
+| VM 3     |          | 10.0.0.8   |                  |
 | ELk Stack|
 
 
