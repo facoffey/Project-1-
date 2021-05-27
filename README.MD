@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   [sample playbook file](https://github.com/facoffey/Project-1-/blob/main/ELKconfig/filebeat-playbook.yml)
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
