@@ -64,8 +64,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - _What is the main advantage of automating configuration with Ansible? _The primary benefit of Ansible is it allows IT administrators to automate away the drudgery from their daily tasks. That frees them to focus on efforts that help deliver more value to the business by spending time on more important tasks
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...Install docker i.o and python3-pip
+- - ...Install docker i.o and python3-pip
 - ...Install Elk
 -    Configure the Server programs
 -    Enable docker to run on start.
