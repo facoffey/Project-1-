@@ -25,7 +25,7 @@ Load balancing ensures that the application will be highly available, in additio
 -The way that the network is built allows for only the jumpbox to be able to connect to all servers on the network.  By using SSH keys and firewalls we can ensure that the network is highly protected from intrusion.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the server and system files.
-- What does Filebeat watch for? Changes to files, which files changed and when. 
+- What does Filebeat watch for? Changes to files, which files changed and when. Filebeat is used to collect log files from very specific files. 
 - Metricbeat allows monitoring. 
 
 The configuration details of each machine may be found below.
@@ -36,7 +36,7 @@ The configuration details of each machine may be found below.
 | Jump Box | Gateway  | 10.0.0.4   | Linux            |
 | VM 1     |webserver | 10.0.0.5   | Linux            |
 | VM 2     |webserver | 10.0.0.6   | Linux            |
-| VM 3     |          | 10.0.0.8   | Linux            |
+| VM 3     |webserver | 10.0.0.8   | Linux            |
 | ELk Stack|
 
 
