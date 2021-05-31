@@ -47,8 +47,8 @@ The machines on the internal network are not exposed to the public Internet.
 Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 40.121.136.24
 -Designated command computer with private key.
 
-Machines within the network can only be accessed by jumpbox. Only the Jumpbox can accept direct SSH connections from the internet. 
-- _
+Machines within the network can only be accessed by jumpbox. Only the Jumpbox can accept direct SSH connections from the internet. Machines within the network can only be accessed by SSH with a PGPkey access using a key created on the JumpBox.
+The Elk Stack is the exception because it can be accessed through HTTP on port 5601.
 VM 1 10.0.0.5  VM 2  10.0.0.6 /Elk 10.1.0.4 Jumpbox Provisioner 40.121.136.24
 A summary of the access policies in place can be found in the table below.
 
