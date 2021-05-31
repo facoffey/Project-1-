@@ -37,18 +37,18 @@ The configuration details of each machine may be found below.
 | VM 1     |webserver | 10.0.0.5   | Linux            |
 | VM 2     |webserver | 10.0.0.6   | Linux            |
 | VM 3     |webserver | 10.0.0.8   | Linux            |
-| ELk Stack|
+|ELk Server Elk stack  10.1.0.4
 
 
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 40.121.136.24
 -Designated command computer with private key.
 
-Machines within the network can only be accessed by jumpbox.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_ 
+Machines within the network can only be accessed by jumpbox. Only the Jumpbox can accept direct SSH connections from the internet. 
+- _
 VM 1 10.0.0.5  VM 2  10.0.0.6 /Elk 10.1.0.4 Jumpbox Provisioner 40.121.136.24
 A summary of the access policies in place can be found in the table below.
 
@@ -67,6 +67,7 @@ The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - ...Install docker i.o and python3-pip
 - ...Install Elk
+-    Configure the Server programs
 -    Enable docker to run on start.
     
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
