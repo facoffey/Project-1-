@@ -69,9 +69,9 @@ The playbook implements the following tasks:
 -    Configure the Server programs
 -    Enable docker to run on start.
     
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+The following screenshot displays the result of running `docker ps`.  This is an example of a web server installation, but yours should be similar.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![ screenshot of docker ps output](https://github.com/facoffey/Project-1-/blob/main/docker-ps-command.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
